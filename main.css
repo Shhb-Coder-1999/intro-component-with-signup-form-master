@@ -1,0 +1,126 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+ :root {
+    --DarkBlue: hsl(249, 10%, 26%);
+    --GrayishBlue: hsl(246, 25%, 77%);
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    --Blue: hsl(248, 32%, 49%);
+    --Blue_For_Hover: hsl(248, 35%, 41%);
+}
+
+body {
+    font-family: 'Poppins';
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: var(--Red);
+    padding: 0px;
+    margin: 0px;
+    margin: auto;
+}
+
+.margin_top {
+    margin-top: .7rem;
+}
+
+.placeholder_style::-webkit-input-placeholder {
+    color: var(--Red);
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+#button {
+    background-color: var(--Blue);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1rem;
+    -webkit-box-shadow: 0 8px 0 0 rgba(62, 60, 73, 0.2);
+    box-shadow: 0 8px 0 0 rgba(62, 60, 73, 0.2);
+}
+
+#button:hover {
+    background-color: var(--Blue_For_Hover);
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    -webkit-box-shadow: 0 8px 0 0 rgba(62, 60, 73, 0.2);
+    box-shadow: 0 8px 0 0 rgba(62, 60, 73, 0.2);
+}
+
+.name_display {
+    display: none;
+}
+
+#submit_btn {
+    width: 93%;
+}
+
+#Terms {
+    font-size: .7rem;
+    text-align: center;
+}
+
+.form-control {
+    border-color: white;
+}
+
+#Password_Input_Border,
+#Name_Input_Border,
+#Last_Name_Input_Border,
+#Email_Input_Border {
+    border-style: solid;
+    border-color: #CED4DA;
+}
+
+.form-control {
+    border-style: none;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.text_error {
+    font-size: .7rem;
+    color: var(--Red);
+    font-style: italic;
+}
+
+#Terms a {
+    text-decoration: none;
+    color: var(--Red);
+    font-weight: bold;
+}
+
+#Terms a:hover {
+    text-decoration: underline;
+}
+
+.h1_style {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.p_style {
+    color: white;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-image: url(images/bg-intro-mobile.png);
+        background-color: var(--Red);
+    }
+}
